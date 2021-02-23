@@ -42,7 +42,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
                 <div class="position-relative tm-thumbnail-container">
                     <img src="img/tn-01.jpg" alt="Image" class="img-fluid tm-catalog-item-img">    
-                    <a href="video-page.html" class="position-absolute tm-img-overlay">
+                    <a href="{{url('/vidio')}}" class="position-absolute tm-img-overlay">
                         <i class="fas fa-play tm-overlay-icon"></i>
                     </a>
                 </div>    
@@ -54,7 +54,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
                 <div class="position-relative tm-thumbnail-container">
                     <img src="img/tn-02.jpg" alt="Image" class="img-fluid tm-catalog-item-img">    
-                    <a href="video-page.html" class="position-absolute tm-img-overlay">
+                    <a href="{{url('/vidio')}}" class="position-absolute tm-img-overlay">
                         <i class="fas fa-play tm-overlay-icon"></i>
                     </a>
                 </div>
@@ -67,7 +67,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
                 <div class="position-relative tm-thumbnail-container">
                     <img src="img/tn-03.jpg" alt="Image" class="img-fluid tm-catalog-item-img">    
-                    <a href="video-page.html" class="position-absolute tm-img-overlay">
+                    <a href="{{url('/vidio')}}" class="position-absolute tm-img-overlay">
                         <i class="fas fa-play tm-overlay-icon"></i>
                     </a>
                 </div>                            
@@ -79,7 +79,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
                 <div class="position-relative tm-thumbnail-container">
                     <img src="img/tn-04.jpg" alt="Image" class="img-fluid tm-catalog-item-img">    
-                    <a href="video-page.html" class="position-absolute tm-img-overlay">
+                    <a href="{{url('/vidio')}}" class="position-absolute tm-img-overlay">
                         <i class="fas fa-play tm-overlay-icon"></i>
                     </a>
                 </div>    
@@ -91,7 +91,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
                 <div class="position-relative tm-thumbnail-container">
                     <img src="img/tn-05.jpg" alt="Image" class="img-fluid tm-catalog-item-img">    
-                    <a href="video-page.html" class="position-absolute tm-img-overlay">
+                    <a href="{{url('/vidio')}}" class="position-absolute tm-img-overlay">
                         <i class="fas fa-play tm-overlay-icon"></i>
                     </a>
                 </div>
@@ -103,7 +103,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
                 <div class="position-relative tm-thumbnail-container">
                     <img src="img/tn-06.jpg" alt="Image" class="img-fluid tm-catalog-item-img">    
-                    <a href="video-page.html" class="position-absolute tm-img-overlay">
+                    <a href="{{url('/vidio')}}" class="position-absolute tm-img-overlay">
                         <i class="fas fa-play tm-overlay-icon"></i>
                     </a>
                 </div>                            
@@ -115,7 +115,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
                 <div class="position-relative tm-thumbnail-container">
                     <img src="img/tn-07.jpg" alt="Image" class="img-fluid tm-catalog-item-img">    
-                    <a href="video-page.html" class="position-absolute tm-img-overlay">
+                    <a href="{{url('/vidio')}}" class="position-absolute tm-img-overlay">
                         <i class="fas fa-play tm-overlay-icon"></i>
                     </a>
                 </div>    
@@ -127,7 +127,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
                 <div class="position-relative tm-thumbnail-container">
                     <img src="img/tn-08.jpg" alt="Image" class="img-fluid tm-catalog-item-img">    
-                    <a href="video-page.html" class="position-absolute tm-img-overlay">
+                    <a href="{{url('/vidio')}}" class="position-absolute tm-img-overlay">
                         <i class="fas fa-play tm-overlay-icon"></i>
                     </a>
                 </div>
@@ -139,7 +139,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
                 <div class="position-relative tm-thumbnail-container">
                     <img src="img/tn-09.jpg" alt="Image" class="img-fluid tm-catalog-item-img">    
-                    <a href="video-page.html" class="position-absolute tm-img-overlay">
+                    <a href="{{url('/vidio')}}" class="position-absolute tm-img-overlay">
                         <i class="fas fa-play tm-overlay-icon"></i>
                     </a>
                 </div>                            
