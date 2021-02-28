@@ -15,9 +15,7 @@
 @section('content')
     <!-- Page content -->
     <main>
-        <div class="container-fluid px-0">
-            <div class="mx-auto tm-content-container">					
-                <div class="row mt-3 mb-5 pb-3">
+        <div class="row mt-3 mb-5 pb-3">
                     <div class="col-12">
                         <div class="mx-auto tm-about-text-container px-3">
                             <h2 class="tm-page-title mb-4 tm-text-primary">About the Video Catalog</h2>
@@ -76,9 +74,6 @@
                             <p>Vestibulum non lectus id lacus aliquet porttitor in non nulla. Aenean urna diam, finibys id lorem nec, feugiat convallis dolor. Integer aliquam, eros eget rutrum iaculis.</p>
                         </div>	
                     </div>
-                </div>
-            </div>
-
             <div class="parallax-window" data-parallax="scroll" data-image-src="img/about-3.jpg"></div>
         </div>
     </main>

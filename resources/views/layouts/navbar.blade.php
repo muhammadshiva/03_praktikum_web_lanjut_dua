@@ -19,13 +19,13 @@
                     </button>
                     <div class="collapse navbar-collapse tm-nav" id="navbar-nav">
                         <ul class="navbar-nav text-uppercase">
-                            <li class="nav-item active">
+                            <li class="nav-item {{ Request::is('/') ? 'active' : ''}}">
                                 <a class="nav-link tm-nav-link" href="{{url('/')}}">Videos <span class="sr-only">(current)</span></a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item {{ Request::is('about') ? 'active' : ''}}">
                                 <a class="nav-link tm-nav-link" href="{{url('/about')}}">About</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item {{ Request::is('contact') ? 'active' : ''}}">
                                 <a class="nav-link tm-nav-link" href="{{url('/contact')}}">Contact</a>
                             </li>
                         </ul>
