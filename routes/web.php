@@ -15,7 +15,8 @@ use App\http\Controllers\HomeController;
 
 Route::get('/', [HomeController::class, 'index']);
 
-Route::get('/vidio', [HomeController::class, 'vidio']);
+Route::get('/vidio', [HomeController::class, 'vidio'])
+    ->name('posts.video');
 
 Route::get('/about', [HomeController::class, 'about']);
 

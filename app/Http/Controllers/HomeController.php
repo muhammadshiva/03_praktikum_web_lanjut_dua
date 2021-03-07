@@ -2,16 +2,17 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Post;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
     public function index(){
-        return view('index');
+        return view('index', ['posts' => Post::index()]);
     }
 
-    public function vidio() {
-        return view('video-page');
+    public function vidio($vidio) {
+        return view('video-page', ['post' => Post::getByVideo($vidio)]);
     }
 
     public function about() {
