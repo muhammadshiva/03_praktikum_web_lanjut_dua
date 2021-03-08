@@ -13,7 +13,7 @@ class HomeController extends Controller
     }
 
     public function show() {
-        return view('video-page');
+        return view('video-page', ['posts' => Post::videoprev()]);
     }
 
     public function about() {

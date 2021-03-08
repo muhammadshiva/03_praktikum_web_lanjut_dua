@@ -14,10 +14,8 @@ class Post extends Model
             ->paginate(9);
     }
 
-    public static function getByVideo($vidio){
-        return Post::where([
-            'video' => $vidio,
-            'draft' => false,
-        ])->first();
+    public static function videoprev(){
+        return Post::where('draft', false)
+        ->paginate(6);
     }
 }
