@@ -77,38 +77,16 @@
                     </div>                        
                 </div>
                 <div class="row">
+                    @foreach ($testimonials as $testimonial)
                     <div class="col-lg-6 mb-5 pt-3">
                         <div class="media tm-testimonial">
-                            <img class="mr-4 rounded-circle img-fluid" src="img/testimonial-1.jpg" alt="Generic placeholder image">
+                            <img class="mr-4 rounded-circle img-fluid" src="{{$testimonial->image}}" alt="Generic placeholder image">
                             <p class="media-body pt-3 tm-testimonial-text">
-                                Vestibulum non lectus id lacus aliquet porttitor in non nulla. Aenean urna diam, finibys id lorem nec, feugiat convallis dolor. Integer aliquam, eros eget rutrum iaculis.    
+                               {{$testimonial->content}}
                             </p>                              
                         </div>              
                     </div>
-                    <div class="col-lg-6 mb-5 pt-3">
-                            <div class="media tm-testimonial">
-                            <img class="mr-4 rounded-circle img-fluid" src="img/testimonial-2.jpg" alt="Generic placeholder image">
-                            <p class="media-body pt-3 tm-testimonial-text">
-                            Maecenas et libero in eros laoreet finibus sed vitae diam. Etiam consetetur, nunc sed pretium elementum, diam erat fringilla tortor, placerat condimentum.
-                            </p>
-                        </div>                                    
-                    </div>
-                    <div class="col-lg-6 mb-5 pt-3">
-                        <div class="media tm-testimonial">
-                            <img class="mr-4 rounded-circle img-fluid" src="img/testimonial-3.png" alt="Generic placeholder image">
-                            <p class="media-body pt-3 tm-testimonial-text">
-                            Aliquam tristique ut magna sit amet tincidunt. Sed tempor tellus nulla, molestie luctus lectus tincidunt id. Cras duismod leo a urna placerat, vel blandit turpis fermentum.
-                            </p>
-                        </div>                  
-                    </div>
-                    <div class="col-lg-6 mb-5 pt-3">
-                        <div class="media tm-testimonial">
-                            <img class="mr-4 rounded-circle img-fluid" src="img/testimonial-4.png" alt="Generic placeholder image">
-                            <p class="media-body pt-3 tm-testimonial-text">
-                            Nulla suscipit posuere lectus ut venenatis. Proin sed orci eget tellus euismod vulputate eu eu arcu. Etiam a bibendum lorem. Cura
-                            </p>
-                        </div>                  
-                    </div>
+                    @endforeach
         </div>
     </main>
 @endsection

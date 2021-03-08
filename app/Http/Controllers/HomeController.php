@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Post;
+use App\Models\Testimonial;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -11,8 +12,8 @@ class HomeController extends Controller
         return view('index', ['posts' => Post::index()]);
     }
 
-    public function vidio($vidio) {
-        return view('video-page', ['post' => Post::getByVideo($vidio)]);
+    public function show() {
+        return view('video-page');
     }
 
     public function about() {
@@ -20,6 +21,6 @@ class HomeController extends Controller
     }
 
     public function contact() {
-        return view('contact');
+        return view('contact', ['testimonials' => Testimonial::index()]);
     }
 }
